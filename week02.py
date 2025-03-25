@@ -19,5 +19,5 @@ while True:
     else:
         print(f"{menu} menu is not exist. please choose from above menu.")
 
-print(order_list)
+print(f"{drinks[0]} {prices[0]} x{amounts[0]} {prices[0]*amounts[0]}]")
 print(f"Total price : {total_price}")
